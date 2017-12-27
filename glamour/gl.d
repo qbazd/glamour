@@ -9,7 +9,7 @@ module glamour.gl;
 version(glad) {
     public import glad.gl.gl;
 } else version(Derelict3) {
-    public import derelict.opengl3.gl3;
+    public import derelict.opengl.gl;
 } else version(Derelict2) {
     public import derelict.opengl.gl;
     public import derelict.opengl.glext;
